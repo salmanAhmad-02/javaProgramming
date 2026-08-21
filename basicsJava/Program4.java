@@ -4,10 +4,10 @@ class Program4{
 		String s1="Salman";
 		String s2="salman";
 		
-		//equals()
+		//equals(string)
 		System.out.println(s1.equals(s2));
 
-		//equalsIgnoreCase()
+		//equalsIgnoreCase(string)
 		System.out.println(s1.equalsIgnoreCase(s2));
 
 		//toUpperCase()
@@ -15,6 +15,9 @@ class Program4{
 
 		//toLowerCase()
 		System.out.println(s1.toLowerCase());
+
+		//codePointAt(int index) return ascii value of that charecter at given index.
+		System.out.println(s1.codePointAt(1));
 	}
 	
 }
