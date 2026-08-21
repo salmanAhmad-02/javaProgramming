@@ -10,5 +10,6 @@ class Program3{
 		System.out.println(s1.charAt(4));
 		System.out.println(s1.charAt(s1.length()-1));
 		System.out.println(s1.substring(3));
+		System.out.println(s1.substring(2,5));
 	}
 }
