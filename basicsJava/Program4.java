@@ -9,6 +9,12 @@ class Program4{
 
 		//equalsIgnoreCase()
 		System.out.println(s1.equalsIgnoreCase(s2));
+
+		//toUpperCase()
+		System.out.println(s2.toUpperCase());
+
+		//toLowerCase()
+		System.out.println(s1.toLowerCase());
 	}
 	
 }
