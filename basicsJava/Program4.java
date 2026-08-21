@@ -18,6 +18,9 @@ class Program4{
 
 		//codePointAt(int index) return ascii value of that charecter at given index.
 		System.out.println(s1.codePointAt(1));
+
+		//contains(), compares the char sequence with the given string,(return t/f).
+		System.out.println(s1.contains("man"));
 	}
 	
 }
