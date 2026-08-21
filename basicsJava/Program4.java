@@ -21,6 +21,9 @@ class Program4{
 
 		//contains(), compares the char sequence with the given string,(return t/f).
 		System.out.println(s1.contains("man"));
+
+		//isEmpty(), returns true iff the length() is 0.
+		System.out.println(s2.isEmpty());
 	}
 	
 }
