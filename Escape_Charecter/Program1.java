@@ -5,5 +5,8 @@ class Program1{
 		System.out.println('"');
 		System.out.println("'");
 		System.out.println('\'');
+
+		//\t- to generate a tab sapce
+		System.out.println("Today is\t Monday");
 	}
 }
