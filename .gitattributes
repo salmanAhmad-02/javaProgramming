@@ -1,0 +1,7 @@
+# Ignore generated Javadoc HTML files from language statistics
+doc/** linguist-documentation
+docs/** linguist-documentation
+*.html linguist-documentation
+
+# Ignore JavaScript vendor libraries or generated scripts
+*.js linguist-vendored
