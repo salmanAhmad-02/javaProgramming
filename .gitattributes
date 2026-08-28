@@ -1,7 +1,10 @@
-# Ignore generated Javadoc HTML files from language statistics
+# Exclude standard Javadoc generated output files from repository language statistics
+*.html linguist-documentation
+*.css linguist-documentation
+*.js linguist-documentation
+*.json linguist-documentation
+
+# If Javadocs are generated into folders like doc/ or docs/
 doc/** linguist-documentation
 docs/** linguist-documentation
-*.html linguist-documentation
-
-# Ignore JavaScript vendor libraries or generated scripts
-*.js linguist-vendored
+**/javadoc/** linguist-documentation
