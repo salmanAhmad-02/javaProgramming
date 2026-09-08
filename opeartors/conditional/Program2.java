@@ -1,4 +1,4 @@
-//Max of three
+//Max of three 
 class Program2{
 	public static void main(String[] args){
 		int a= 45  , b= 55  , c=  35 ;
