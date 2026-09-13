@@ -1,15 +1,15 @@
 class LeetProblem231{
 	public static boolean isPowerOfTwo(int num) {
 		//return false if number is 0 or nagative
-        	if(num<=0)
+		if(num<=0)
 			return false;
 		//loop run till number is even
 		while(num%2==0){
 			//divide the number with 2 and store(update) the number
-            		num /=2;
-        	}
+			num /=2;
+		}
 		//return true when number became 1 after division by 2 for all nubers that are in power of two
-        	return num==1;
+		return num==1;
 	}
 	public static void main(String[] args){
 		int n1=1;
