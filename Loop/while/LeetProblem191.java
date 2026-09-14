@@ -18,6 +18,14 @@ class LeetProblem191{
         }
         return res;
     }
+    public static int hammingWeightByBaseTwoDevide(int n){
+        int res=0;
+        while(n>0){
+            res += n % 2;
+            n /=2;      // shifts bits right by 1
+        }
+        return res;
+    }
     public static void main(String[] args){
         int n1=11;
         int n2=128;
