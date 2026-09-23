@@ -15,3 +15,8 @@
 13.  For the given array of Strings, print the largest string.
 14.  WAJP to check if an array is strictly increasing. i/p: \[2, 3, 7, 8, 9\] o/p: Array is strictly increasing.
 15.  WAJP to check whether a given array is in sorted order or not. i/p: \[2, 7, 7, 8, 9\] o/p: Array is sorted.
+16.  WAJP to print all prime numbers available in array. 
+17.  WAJP to count all prime numbers available in array.
+18.  WAJP to print all palindrome numbers available in array. 
+19.  WAJP to count all palindrome numbers available in array. 
+20.  WAJP to store n prime numbers in array.
