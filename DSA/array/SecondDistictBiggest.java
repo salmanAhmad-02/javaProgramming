@@ -1,5 +1,4 @@
 // WAP to find second distict biggest element of the array.
-// import java.lang.Integer;    //Provide by .lang pack
 class SecondDistictBiggest{
     public static int findSecondMax(int[] arr){
         int max=Integer.MIN_VALUE;
