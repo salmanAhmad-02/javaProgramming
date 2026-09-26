@@ -28,7 +28,7 @@ class SecondDistictSmallest{
         int[] arr={80, 80, 43, 50, 38, 63, 38, 80};
         int secondSmall=getSecondSmallestUniqueElement(arr);        // O/P - 43
 
-        if(secondSmall<0){
+        if(secondSmall==-1){
             System.out.println("Emty Array or Single Indexed Array ! ");
         }
         else{
