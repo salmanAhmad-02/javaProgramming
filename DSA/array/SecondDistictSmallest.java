@@ -1,6 +1,6 @@
-// WAP to print Second Smallest element of the array.
-class SecondSmallest{
-    public static int getSecondSmallestElement(int [] nums){
+// WAP to print Second Distict Smallest element of the array.
+class SecondDistictSmallest{
+    public static int getSecondSmallestUniqueElement(int [] nums){
         // Step 1: Guard against missing or empty input array
         if(nums == null || nums.length==0){
             return -1;
@@ -25,7 +25,7 @@ class SecondSmallest{
     }
     public static void main(String[] args){
         int[] arr={80, 80, 43, 50, 38, 63, 38, 80};
-        int secondSmall=getSecondSmallestElement(arr);
+        int secondSmall=getSecondSmallestUniqueElement(arr);        // O/P - 43
 
         if(secondSmall<0){
             System.out.println("Emty Array or Single Indexed Array ! ");
