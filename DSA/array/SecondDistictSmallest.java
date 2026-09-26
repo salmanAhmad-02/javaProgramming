@@ -21,7 +21,8 @@ class SecondDistictSmallest{
                 secSmall=n;
             }
         }
-        return secSmall;
+        //in case the length more than 1 but there no diff value for second small, will return -1;
+        return (secSmall == Integer.MAX_VALUE) ? -1 : secSmall;
     }
     public static void main(String[] args){
         int[] arr={80, 80, 43, 50, 38, 63, 38, 80};
