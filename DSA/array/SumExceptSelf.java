@@ -24,7 +24,7 @@ class SumExceptSelf{
             System.out.println("Invalid Input! ");
             return;
         }   
-        System.out.print("Updated Array : [");
+        System.out.print("Output Array : [");
         for(int i=0; i<arr.length; i++){
             if(i != arr.length-1){
                 System.out.print(arr[i]+", ");
