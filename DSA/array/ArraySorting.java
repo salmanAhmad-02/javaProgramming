@@ -1,7 +1,7 @@
 class ArraySorting{
     public static void main(String[] args){
         int[] a={12, 20, 8, 15, 5, 25, 16};
-        selectionSort(a);
+        insertionSort(a);
 
         printArray(a);
     }
@@ -33,6 +33,18 @@ class ArraySorting{
             }
             a[minIndex]=a[i];
             a[i]=min;
+        }
+    }
+    // Insertion Sort : 
+    public static void insertionSort(int[] a){
+        for(int i=1; i<a.length; i++){
+            int pivot=a[i];
+            int j=i-1;
+            while(j>=0 && a[j]>pivot){
+                a[j+1]=a[j];
+                j--;
+            }
+            a[j+1]=pivot;
         }
     }
 }
