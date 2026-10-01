@@ -1,9 +1,13 @@
 class ArraySorting{
     public static void main(String[] args){
         int[] a={12, 20, 8, 15, 5, 25, 16};
-        insertionSort(a);
+        int[] nums={40, 10, 30, 20, 8};
 
-        printArray(a);
+        bubbleSort(nums);
+        printArray(nums);
+
+        // insertionSort(a);
+        // printArray(a);
     }
     public static void printArray(int[] arr){
         if(arr==null || arr.length==0){
@@ -21,7 +25,7 @@ class ArraySorting{
         }
         System.out.println("\n");
     }
-    // This method contains the logic for Selection Sort
+    //  Selection Sort :
     public static void selectionSort(int[] a){
         for(int i=0; i<a.length; i++){
             int min=a[i], minIndex=i;
@@ -47,4 +51,20 @@ class ArraySorting{
             a[j+1]=pivot;
         }
     }
+    // Bubble Sort :
+    public static void bubbleSort(int[] a){
+		for(int i=0; i<a.length-1; i++){
+            boolean isSorted=true;
+			for(int j=0; j<a.length-1-i; j++){
+				if(a[j]>a[j+1]){
+					int temp=a[j];
+					a[j]= a[j+1];
+					a[j+1]=temp;
+                    isSorted=false;
+				}
+			}
+            if(isSorted)
+                break;
+		}
+	}
 }
