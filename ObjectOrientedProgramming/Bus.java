@@ -9,10 +9,10 @@ class Bus extends Vehicle{
         this.fuelType = fuelType;
         this.seatingCapacity=seatingCapacity;
     }
-    public void displayTruckDetails() {
+    public void displayBusDetails() {
         displayVehicleDetails();
         System.out.println("Power: " + power);
         System.out.println("Fuel Type: " + fuelType);
-        System.out.println("Load Capacity: " + seatingCapacity + " Tons");
+        System.out.println("Seating Capacity: " + seatingCapacity + " Persons");
     }
 }
