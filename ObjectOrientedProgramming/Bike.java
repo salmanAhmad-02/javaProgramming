@@ -1,7 +1,7 @@
 class Bike extends Vehicle{
     private double power;
     private String fuelType;
-    private static int seatingCapacity;
+    private int seatingCapacity;
 
     public Bike(String brand, String vehicleName, String vehicleCategory, double power, String fuelType, int seatingCapacity){
         super(brand, vehicleName, vehicleCategory);
