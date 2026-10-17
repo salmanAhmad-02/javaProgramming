@@ -97,5 +97,7 @@ Direct-address table lookups and frequency counting strategies.
 * **`PrintFrequency.java`** (`./hashing/PrintFrequency.java`)[cite: 28, 41] – Compute and print frequencies of elements.
 * **`UniqueElementSum.java`** (`./hashing/UniqueElementSum.java`)[cite: 41] – Calculate sum of unique elements using frequency maps.
 
-
+### 10. Kadane's Algorithm (`kadane/`)
+Find the maximum contiguous subarray sum (LeetCode 53).
+* **`MaximumSubarray.java`** (`./kadne/MaximumSubarray.java`) – Find the contiguous subarray with the largest sum and return that maximum sum.
 
