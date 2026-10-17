@@ -97,10 +97,5 @@ Direct-address table lookups and frequency counting strategies.
 * **`PrintFrequency.java`** (`./hashing/PrintFrequency.java`)[cite: 28, 41] – Compute and print frequencies of elements.
 * **`UniqueElementSum.java`** (`./hashing/UniqueElementSum.java`)[cite: 41] – Calculate sum of unique elements using frequency maps.
 
-### 8. Number Theory (`numbertheory/`)
-Mathematical series generation, number properties, and numerical sequences.
-* **`ArrayPrimesOfFirst100.java`** (`./numbertheory/ArrayPrimesOfFirst100.java`)[cite: 2, 42] – Generate and store prime numbers up to 100.
-* **`FibonacciSeries.java`** (`./numbertheory/FibonacciSeries.java`)[cite: 10, 42] – Generate Fibonacci terms up to $n$.
-* **`MissingNumber.java`** (`./numbertheory/MissingNumber.java`)[cite: 22, 42] – Find missing number in a sequence.
-* **`TribonacciSeries.java`** (`./numbertheory/TribonacciSeries.java`)[cite: 42] – Generate Tribonacci sequence numbers.
+
 
