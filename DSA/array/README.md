@@ -34,7 +34,19 @@ Contains foundational questionnaire scripts (`Question1.java` through `Question2
 * **`Question19.java`** (`./practicefundamentals/Question19.java`)[cite: 43] – Count palindrome numbers in an array.
 * **`Question20.java`** (`./practicefundamentals/Question20.java`)[cite: 43] – Store $n$ prime numbers in an array.
 
-### 3. Array Manipulation (`arraymanipulation/`)
+### 3. Number Theory (`numbertheory/`)
+Mathematical series generation, number properties, and numerical sequences.
+* **`ArrayPrimesOfFirst100.java`** (`./numbertheory/ArrayPrimesOfFirst100.java`)[cite: 2, 42] – Generate and store prime numbers up to 100.
+* **`FibonacciSeries.java`** (`./numbertheory/FibonacciSeries.java`)[cite: 10, 42] – Generate Fibonacci terms up to $n$.
+* **`MissingNumber.java`** (`./numbertheory/MissingNumber.java`)[cite: 22, 42] – Find missing number in a sequence.
+* **`TribonacciSeries.java`** (`./numbertheory/TribonacciSeries.java`)[cite: 42] – Generate Tribonacci sequence numbers.
+
+### 4. Greedy (`greedy/`)
+Greedy choice property algorithms for optimization problems.
+* **`CoinChangeSolver.java`** (`./greedy/CoinChangeSolver.java`)[cite: 5, 40] – Greedy coin denomination selection algorithm.
+* **`StockProfitMaximizer.java`** (`./greedy/StockProfitMaximizer.java`)[cite: 40] – Maximize stock trading profit tracking minimum buy prices.
+
+### 5. Array Manipulation (`arraymanipulation/`)
 Deals with inserts, deletions, sliding windows, min/max variations, and boundary tracking problems.
 * **`InsertElement.java`** (`./arraymanipulation/InsertElement.java`)[cite: 18, 39] – Insert an element at a specific position.
 * **`MaxConsecutiveOnes.java`** (`./arraymanipulation/MaxConsecutiveOnes.java`)[cite: 20, 39] – Find max consecutive 1s in a binary array.
@@ -49,7 +61,7 @@ Deals with inserts, deletions, sliding windows, min/max variations, and boundary
 * **`ThirdBiggest.java`** (`./arraymanipulation/ThirdBiggest.java`)[cite: 39] – Find third maximum distinct value.
 * **`TwoSum.java`** (`./arraymanipulation/TwoSum.java`)[cite: 39] – Brute-force two-sum implementation.
 
-### 4. Two Pointers (`twopointers/`)
+### 6. Two Pointers (`twopointers/`)
 Efficient traversal patterns utilizing two moving markers, sliding techniques, and in-place transformations.
 * **`ContainerWithMostWater.java`** (`./twopointers/ContainerWithMostWater.java`)[cite: 7, 46] – Maximize water container area.
 * **`OceanViewProblem1.java`** (`./twopointers/OceanViewProblem1.java`)[cite: 25, 46] – Count right-side visible buildings.
@@ -63,20 +75,20 @@ Efficient traversal patterns utilizing two moving markers, sliding techniques, a
 * **`TrappedRainWater.java`** (`./twopointers/TrappedRainWater.java`)[cite: 46] – Calculate trapped rainwater between elevation bars.
 * **`TwoSumOnSortedArray.java`** (`./twopointers/TwoSumOnSortedArray.java`)[cite: 46] – Linear two-sum on sorted arrays.
 
-### 5. Sorting (`sorting/`)
+### 7. Sorting (`sorting/`)
 Algorithms focused on arranging data elements in specific orders and partitioning data.
 * **`ArraySorting.java`** (`./sorting/ArraySorting.java`)[cite: 4, 45] – Traditional sorting implementations (Bubble, Selection, Insertion).
 * **`Sort2.java`** (`./sorting/Sort2.java`)[cite: 45] – QuickSort implementation using partitioning.
 * **`SortColors.java`** (`./sorting/SortColors.java`)[cite: 45] – Dutch National Flag algorithm for sorting 0s, 1s, and 2s in-place.
 
-### 6. Prefix Sum (`prefixsum/`)
+### 8. Prefix Sum (`prefixsum/`)
 Array accumulation and running total techniques for fast range queries.
 * **`FindPivotIndex.java`** (`./prefixsum/FindPivotIndex.java`)[cite: 17, 44] – Find equilibrium index where left and right sums are equal.
 * **`ProductExceptSelf.java`** (`./prefixsum/ProductExceptSelf.java`)[cite: 29, 44] – Calculate product arrays without division.
 * **`SumExceptSelf.java`** (`./prefixsum/SumExceptSelf.java`)[cite: 44] – In-place sum modification excluding current index.
 * **`SumOfOneDirectionalArray.java`** (`./prefixsum/SumOfOneDirectionalArray.java`)[cite: 44] – Compute running sums of a 1D array.
 
-### 7. Hashing & Frequency (`hashing/`)
+### 9. Hashing & Frequency (`hashing/`)
 Direct-address table lookups and frequency counting strategies.
 * **`FascinatingCheck.java`** (`./hashing/FascinatingCheck.java`)[cite: 8, 41] – Check if a number forms a fascinating number (digits 1-9).
 * **`LeastFrequentDigit.java`** (`./hashing/LeastFrequentDigit.java`)[cite: 19, 41] – Identify the digit with minimum frequency.
@@ -92,7 +104,3 @@ Mathematical series generation, number properties, and numerical sequences.
 * **`MissingNumber.java`** (`./numbertheory/MissingNumber.java`)[cite: 22, 42] – Find missing number in a sequence.
 * **`TribonacciSeries.java`** (`./numbertheory/TribonacciSeries.java`)[cite: 42] – Generate Tribonacci sequence numbers.
 
-### 9. Greedy (`greedy/`)
-Greedy choice property algorithms for optimization problems.
-* **`CoinChangeSolver.java`** (`./greedy/CoinChangeSolver.java`)[cite: 5, 40] – Greedy coin denomination selection algorithm.
-* **`StockProfitMaximizer.java`** (`./greedy/StockProfitMaximizer.java`)[cite: 40] – Maximize stock trading profit tracking minimum buy prices.
