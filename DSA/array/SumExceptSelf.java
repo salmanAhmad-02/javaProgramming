@@ -5,18 +5,17 @@ Original array:  [2, 5, 4, 3, 6]
 Resultant array: [18, 15, 16, 17, 14]
 */
 class SumExceptSelf{
-    public static int[] getSum(int[] nums){
+    // updated to work in-place
+    public static void getSum(int[] nums){
         if(nums==null || nums.length==0)
-            return new int[0];
-        int[] newArray=new int[nums.length];
+            return;
         int totalSum=0;
         for(int n:nums){
             totalSum += n;
         }
         for(int i=0; i<nums.length; i++){
-            newArray[i]=totalSum-nums[i];
+            nums[i]=totalSum-nums[i];
         }
-        return newArray;
     }
     //Array Printing Method In String Form
     public static void printArray(int[] arr){
@@ -37,7 +36,7 @@ class SumExceptSelf{
     }
     public static void main(String[] args){
         int[] arr={2, 5, 4, 3, 6};
-        int[] result=getSum(arr);
-        printArray(result);
+        getSum(arr);
+        printArray(arr);
     }
 }
