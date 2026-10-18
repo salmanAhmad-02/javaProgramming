@@ -107,5 +107,6 @@ Find the maximum contiguous subarray product (LeetCode 152).
 Core algorithms for finding elements within arrays, covering both sequential and interval search techniques.
 * **`SequentialSearch.java`** (`./searching/SequentialSearch.java`) – Perform a sequential/linear scan to find the index of a target element in an array.
 * **`BinarySearch.java`** (`./searching/BinarySearch.java`) – Find the index of a target element in a sorted array using binary search and return that index.
+* **`SearchInsertPosition.java`** (`./searching/SearchInsertPosition.java`) – Find the index of a target or its insertion position in a sorted array using binary search.
 
 
