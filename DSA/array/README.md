@@ -100,4 +100,6 @@ Direct-address table lookups and frequency counting strategies.
 ### 10. Kadane's Algorithm (`kadane/`)
 Find the maximum contiguous subarray sum (LeetCode 53).
 * **`MaximumSubarray.java`** (`./kadne/MaximumSubarray.java`) – Find the contiguous subarray with the largest sum and return that maximum sum.
+Find the maximum contiguous subarray product (LeetCode 152).
+* **`MaxProductSubarray.java`** (`./kadne/MaxProductSubarray.java`) – Find the contiguous subarray with the maximum product and return that maximum product.
 
