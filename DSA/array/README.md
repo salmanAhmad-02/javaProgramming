@@ -92,10 +92,12 @@ Array accumulation and running total techniques for fast range queries.
 Direct-address table lookups and frequency counting strategies.
 * **`FascinatingCheck.java`** (`./hashing/FascinatingCheck.java`)[cite: 8, 41] – Check if a number forms a fascinating number (digits 1-9).
 * **`LeastFrequentDigit.java`** (`./hashing/LeastFrequentDigit.java`)[cite: 19, 41] – Identify the digit with minimum frequency.
+* **`LeastFrequentDigit2.java`** (`./hashing/LeastFrequentDigit2.java`)[cite: 19, 41] – Identify the digit with minimum frequency.
 * **`MostFrequetElement.java`** (`./hashing/MostFrequetElement.java`)[cite: 23, 41] – Find element appearing most frequently.
 * **`NonRepeatingElement.java`** (`./hashing/NonRepeatingElement.java`)[cite: 24, 41] – Find unique single occurrences.
 * **`PrintFrequency.java`** (`./hashing/PrintFrequency.java`)[cite: 28, 41] – Compute and print frequencies of elements.
 * **`UniqueElementSum.java`** (`./hashing/UniqueElementSum.java`)[cite: 41] – Calculate sum of unique elements using frequency maps.
+* **`MostFrequentEven.java`** (`./hashing/MostFrequentEven.java`) – Find the most frequent even element in an array, return -1 in case of not exist, returning the smallest element on tie.
 
 ### 10. Kadane's Algorithm (`kadane/`)
 Find the maximum contiguous subarray sum (LeetCode 53).
