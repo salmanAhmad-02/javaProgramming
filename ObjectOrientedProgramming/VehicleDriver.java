@@ -16,7 +16,8 @@ public class VehicleDriver {
             "Bike",
             "Transport",
             300,
-            "Petrol"
+            "Petrol",
+            2
         );
         bike.displayBikeDetails();
     }
