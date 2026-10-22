@@ -5,7 +5,7 @@ class Program2{
 		System.out.println("Returned value is: "+res);
 	}
 
-    //  will lead any error : for any value either it will go in if "true" case , false case will execute else 
+    //  No error : for any value either it will go in if "true" case , false case will execute else 
 	public static int test(int n){
 		if(n>10){
 			return 15;
