@@ -58,4 +58,3 @@ Remember this statement:
 
 > Java passes object references by value; it does not pass objects by reference.
 
-Understanding this concept is essential before studying object manipulation, methods, constructors, and memory behavior in Java.
