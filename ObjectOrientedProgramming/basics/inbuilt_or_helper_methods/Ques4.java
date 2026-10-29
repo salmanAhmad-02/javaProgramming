@@ -1,6 +1,6 @@
 // Random number in a range.
 import java.util.Random;
-class Ques3{
+class Ques4{
     public static void main(String[] args){
         Random r1 = new Random();
 
