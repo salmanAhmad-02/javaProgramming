@@ -1,4 +1,4 @@
-package strings;
+
 /* Get index of first non repeating charecter
     e.g. 1: i/p : "loveleetcode"
             o/p : 0 , 'v' is first non repeating charecter.
