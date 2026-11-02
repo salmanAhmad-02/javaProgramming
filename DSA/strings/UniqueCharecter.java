@@ -1,4 +1,3 @@
-package strings;
 class UniqueCharecter{
     public static void main(String[] args){
         String input = "cdaecddba";
