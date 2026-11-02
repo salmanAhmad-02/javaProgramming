@@ -1,4 +1,3 @@
-package strings;
 /* A String is callled Pangram if it consist each and every charecter from a to z , at least once */
 class CheckPangram{
     public static void main(String[] args){
@@ -26,5 +25,4 @@ class CheckPangram{
         }
         return true;
     }
-
 }
