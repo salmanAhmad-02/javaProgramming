@@ -1,4 +1,3 @@
-package strings;
 class SortCharecters{
     public static void main(String[] args){
         String input = "cdaecddba";
