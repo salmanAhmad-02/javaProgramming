@@ -6,7 +6,7 @@ public class AddDriver {
         try {
             System.out.println(AddNumbers.sum(89, -98));
         } catch (NegativeInputException e){
-            // this will print caller statck
+            // prints the exception and the call stack
             e.printStackTrace();
         }
         System.out.println("Main Ends...........");
