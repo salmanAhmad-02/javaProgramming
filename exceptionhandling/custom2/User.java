@@ -1,7 +1,7 @@
 package custom2;
 
 /**
- * Users
+ * User
 */
 public final class User{
     private String name;
