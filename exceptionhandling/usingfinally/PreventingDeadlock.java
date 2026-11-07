@@ -13,7 +13,7 @@ public class PreventingDeadlock {
             lock.lock();    
             try{
                 count++;
-                System.out.println(Thread.currentThread().getName()+" Adde "+i+" Tokens. Current total :"+count);
+                System.out.println(Thread.currentThread().getName()+" Added "+i+" Tokens. Current total :"+count);
             }
             finally{
                 lock.unlock();
@@ -49,7 +49,7 @@ public class PreventingDeadlock {
         t2.join();
         t3.join();
 
-        // final resourse value
+        // final resource value
         sharedResource.printData();
     }
 }
