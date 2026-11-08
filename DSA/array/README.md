@@ -111,4 +111,9 @@ Core algorithms for finding elements within arrays, covering both sequential and
 * **`BinarySearch.java`** (`./searching/BinarySearch.java`) – Find the index of a target element in a sorted array using binary search and return that index.
 * **`SearchInsertPosition.java`** (`./searching/SearchInsertPosition.java`) – Find the index of a target or its insertion position in a sorted array using binary search.
 
+### 12. Binary Search Applications (`binary/`)
+Problems solved using binary search logic on answer spaces and non-uniform search intervals.
+- **`SquareRoot.java`** (`./binary/SquareRoot.java`) – Compute the integer square root of a number using binary search without built-in functions.
+- **`CheckPerfectSquare.java`** (`./binary/CheckPerfectSquare.java`) – Determine if a positive integer is a valid perfect square using binary search.
+- **`PeakElement.java`** (`./binary/PeakElement.java`) – Find a peak element's index in $O(\log n)$ time using binary search.
 
