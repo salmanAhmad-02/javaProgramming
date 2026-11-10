@@ -54,7 +54,7 @@ public class SearchInRotatedArray {
                 return mid;
             }
             // Check if the left half is sorted
-            else if(nums[start] <= nums[mid]){
+            if(nums[start] <= nums[mid]){
                 // Check if target lies within the sorted left half
                 if(nums[start] <= target && target < nums[mid]){
                    end = mid - 1;
