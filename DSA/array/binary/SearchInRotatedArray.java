@@ -41,25 +41,32 @@ Constraints:
 */
 public class SearchInRotatedArray {
     public static int search(int[] nums, int target){
+        // Check if the array contains only one element
         if(nums.length==1 && nums[0]==target){
             return 0;
         }
         int start = 0 , end = nums.length -1;
         while(start <= end ){
             int mid = start + (end - start)/2;
+
+            // Target found
             if(target == nums[mid]){
                 return mid;
             }
+            // Check if the left half is sorted
             if(nums[start] <= nums[mid]){
-                if(target >= nums[start] && target < nums[mid]){
+                // Check if target lies within the sorted left half
+                if(nums[start] <= target && target < nums[mid]){
                    end = mid - 1;
                 }
                 else{
                     start = mid + 1;
                 }
             }
+            // Otherwise, the right half is sorted
             else{
-                if(target > nums[mid] && target <= nums[end]){
+                // Check if target lies within the sorted right half
+                if(nums[end]>= target && target > nums[mid]){
                     start = mid + 1;
                 }
                 else{
@@ -67,12 +74,13 @@ public class SearchInRotatedArray {
                 }
             }
         }
+        // Target not found
         return -1;
     }
     public static void main(String[] args) {
         int[] arr = {3,1};
         int target = 1;
-        System.out.println("Index of Target is : "+search(arr, target));
+        System.out.println("Target = "+target+", is at index : "+search(arr, target));
 
     }
 }
