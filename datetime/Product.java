@@ -1,6 +1,7 @@
 import java.math.BigDecimal;
 import java.time.LocalDate;
 import java.time.Period;
+import java.time.format.DateTimeFormatter;
 
 public class Product {
     private String productID;
@@ -11,6 +12,9 @@ public class Product {
     private LocalDate mfgDate;
     private Period shelfLifePeriod;
     private  LocalDate expDate;
+
+    private static final DateTimeFormatter FORMATTER =
+        DateTimeFormatter.ofPattern("dd/MM/yyyy");
 
     // Not allowing not information product 
     // public Product(){}
@@ -73,7 +77,7 @@ public class Product {
             + "\tCategory : " + category
             + "\tBrand : " + brandName
             + "\tMRP : " + mrp
-            + "\tMFG : " + mfgDate
-            + "\tEXP : " + expDate;
+            + "\tMFG : " + (mfgDate != null ? mfgDate.format(FORMATTER) : "N/A")
+            + "\tEXP : " + (expDate != null ? expDate.format(FORMATTER) : "N/A");
     }
 }
